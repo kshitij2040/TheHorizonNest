@@ -235,7 +235,7 @@ export default function Page() {
         </div>
       ),
     },
-    
+
     {
       title: "Random",
       value: "random",
@@ -257,8 +257,6 @@ export default function Page() {
       ),
     },
   ];
-  
-
   
 
   const projects = [
@@ -304,14 +302,14 @@ export default function Page() {
     {
       title: "Home",
       icon: <IconHome className="h-full w-full text-neutral-500 dark:text-neutral-300" />,
-      href: "#home", // This will act as a unique identifier for projects
+      href: "#home", 
       onClick: handleScrollToHome,
     },
     {
       title: "Projects",
       icon: <IconTerminal2 className="h-full w-full text-neutral-500 dark:text-neutral-300" />,
-      href: "#projects", // This will act as a unique identifier for projects
-      onClick: handleScrollToProjects, // Attach scroll handler
+      href: "#projects", 
+      onClick: handleScrollToProjects,// Attach scroll handler
     },,
     {
       title: "Know Me",
